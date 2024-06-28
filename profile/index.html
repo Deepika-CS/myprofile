@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="https://img.freepik.com/premium-photo/indian-female-student_599862-9702.jpg?size=626&ext=jpg&ga=GA1.1.617719015.1719463317&semt=ais_user.png"alt="Deepika" width="100" >
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Deepika">Deepika</h1>
+
+          <p class="title">Hai,I'am CS Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:deepi1212@gmail.com" class="contact-link">deepi1212@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919568579635" class="contact-link">+91 9568579635</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-02-01">feb 1, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chennai, Chrompet, TamilNadu</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A computer science student can be both challenging and rewarding. 
+            You're likely immersed in a mix of theory and practical application, learning about algorithms, data structures, programming languages, software engineering principles, and more.
+            Are there any specific topics or areas within computer science that you find particularly fascinating or are currently studying          
+          </p>
+        </section>
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="data:image/jpeg;base64,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" alt=" Web design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="data:image/png;base64,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" alt="Python icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python</h4>
+
+                <p class="service-item-text">
+                  Python is a programming language that's easy to learn and widely used for creating software, websites, and analyzing data.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <!--
+          - testimonials
+        --->   
+          </ul>
+
+        </section>
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2024-06-22">14 June, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Companys</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://www.caddinfotech.in/images/logo-new.png" alt="Company" height="150" width="150">
+              </a>
+            </li>
+
+            
+
+         
+           
+
+           
+
+
+          </ul>
+
+        </section>
+
+      </article>
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Annamalai University</h4>
+
+              <span>2023 - 2025</span>
+
+              <p class="timeline-text">
+                An MSc degree signifies advanced knowledge and skills in a specific area of science or technology, preparing graduates for specialized careers and further academic endeavors.
+                Master of Computer science.
+                9.1
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vivekananda College of Arts and Science for Women </h4>
+
+              <span>2020 - 2023</span>
+
+              <p class="timeline-text">
+                which is an undergraduate academic degree awarded to students who have completed a course of study in the sciences or related disciplines.
+                A BSc degree provides a solid foundation in scientific principles and methodologies, preparing graduates for a wide range of career paths or further academic pursuits.
+                Bachelor of computer science
+                8.7
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Higher Secondary School</h4>
+
+              <span>2019 - 2020</span>
+
+              <p class="timeline-text">
+                Higher secondary school represents a critical stage in a student's educational journey, 
+                providing a foundation for future academic and career endeavors by offering specialized knowledge, skills, and qualifications.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Project</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project Name</h4>
+
+              <p class="timeline-text">
+               Python Portfolio Profile Web Framework
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">project duration</h4>
+              <p class="timeline-text">
+                1 months duration
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project description</h4>
+
+              <p class="timeline-text">
+                Python Profile Portfolio Framework Using Flask Framework<br>Frontend technology: HTML5, CSS<br>Backend: Python Flask
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+           
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python portfolio</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MsOffice</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Portfolio</button>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="deepi.png" alt="Portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://bootstrapmade.com/content/templatefiles/iPortfolio/iPortfolio-bootstrap-website-template-sm.webp" alt="Bootstrap Portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bootstrap Portfolio</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://themefisher.com/blog/sleek-dashboard.webp" alt="Sleek" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sleek</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://themefisher.com/blog/dlab.webp" alt="Dlab" loading="lazy">
+                  
+                </figure>
+
+                <h3 class="project-title">Dlab</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://t4.ftcdn.net/jpg/05/03/01/29/240_F_503012956_jFB0Omz4bgGXqbYMIfPTbzRihLJgQiMY.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Marketing</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.224206592111!2d80.14085441531167!3d12.957500218692209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fb0835e2c81%3A0x12b93e2389c37e1b!2sCADD%20Infotech!5e0!3m2!1sen!2sin!4v1676470013457!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <h3>Company Name: CADD Infotech</h3>
+              <h3>Email: enquiry@caddinfotech.in</h3>
+              <h3>Address: #2, Rangaswamy Street, Near Pothys, Chrompet, Chennai - 44. </h3>
+            </div>
+            
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
